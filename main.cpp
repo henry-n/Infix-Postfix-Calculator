@@ -64,7 +64,7 @@ std::list <std::string> getInput(){
 
     std::string input;
 
-    std::cout << "Enter Infix Expression: ";
+    std::cout << "\nEnter Infix Expression, \ni.e. ( A + C - 100 )# With Spaces In Between Each Characters and '#' at the end\nExpression: ";
     std::getline(std::cin, input);
 
     if(checkExpression(input))
