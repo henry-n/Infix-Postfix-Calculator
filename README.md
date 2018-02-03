@@ -12,3 +12,4 @@ The program does not currently safeguard against division by 0 and will also bre
 Infix form like ( -1 + a ), as the token will read the negative sign as a minus operator first and ignore the number after it.
 
 This was made for my Data Structure class. Attached is the pdf of the requirement as well.
+**Note that I also didn't separate the functions into an implementation file because the program was to be graded together in one file**
