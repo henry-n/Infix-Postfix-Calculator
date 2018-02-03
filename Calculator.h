@@ -21,8 +21,10 @@ void transferStack2(std::stack <std::string> * expressionStack, std::list <std::
 void transferStack2(std::stack <std::string> * expressionStack, std::list <std::string> * expressionList, char * token);
 void pushToStack(std::stack <std::string> * expressionStack, char * token);
 
+void calculatePost(std::stack <int> * expressionStack, std::string operatorType);
 void postfixEvaluate(std::list <std::string> expressionList);
 std::tuple <int, int> popVariables(std::stack <int> * expressionStack);
 int convertVariable(std::stack <int> * expressionStack, std::string variable );
+
 
 #endif // CALCULATOR_H
